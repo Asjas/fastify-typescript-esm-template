@@ -2,14 +2,17 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules"],
   "compilerOptions": {
-    "incremental": true,
-    "target": "ES2021",
-    "module": "ESNext",
-    "lib": ["ESNEXT"],
-    "noEmit": true,
-    "moduleResolution": "Node",
     "esModuleInterop": true,
-    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "lib": ["ESNEXT"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "noEmit": true,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2021"
   }
 }
